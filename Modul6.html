@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <title>Modul 6</title>
+
+    <style>
+      body{
+		background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMS1wZC1zYXNpLTAzLmpwZw.jpg?s=CdLIad9DE050V1GoHn558RHCcecOGpn7YBeRX4NtwG0");
+		background-color: blue;
+		margin: 10px auto;
+		width: 750px;
+	  }
+      #wrapper {
+        margin: auto;
+        width: 100%;
+      }
+
+      #header {
+        height: 150px;
+        padding: 20px;
+        border: 2px solid rgb(0, 68, 255);
+      }
+
+      #nav {
+        margin: auto;
+        padding: 20px;
+        height: 200px;
+        border: 2px solid rgb(0, 68, 255);
+      }
+
+      .box {
+        float: left;
+        width: 22%;
+        margin: 0 2% 0 0;
+        height: 120px;
+        background: rgb(9, 232, 240);
+        border: 2px solid rgb(9, 232, 240);
+        border-radius: 19%;
+      }
+
+      #footer {
+        padding: 20px;
+        height: 350px;
+        border: 2px solid rgb(0, 68, 255);
+      }
+
+    @media only screen and (max-width: 768px) {
+      #nav {
+        height: 360px;
+      }
+
+      .box {
+        width: 45%;
+        margin: 0 4% 20px 0;
+      }
+}
+
+    @media only screen and (max-width: 375px) {
+      #nav {
+        height: 640px;
+      }
+
+      .box {
+        width: 100%;
+        margin: 0 0 20px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+
+    <div id="header">
+      <h2 align="center">MENU</header>
+    </div>
+
+    <div id="nav">
+    <h2>Makanan</h2>
+      <div class="box">
+      <h3 align="center">Nasi Goreng
+      </div>
+
+      <div class="box">
+        <h3 align="center">Mie goreng
+      </div>
+
+      <div class="box">
+        <h3 align="center">Soto ayam
+      </div>
+
+      <div class="box">
+        <h3 align="center">Pecel bebek
+      </div>
+    </div>
+
+    <div id="footer">
+      <h2>Minuman</h2>
+      <div class="box">
+        <h3 align="center">Es teh
+        </div>
+  
+        <div class="box">
+          <h3 align="center">Es milo
+        </div>
+  
+        <div class="box">
+          <h3 align="center">Es jeruk
+        </div>
+
+        <div class="box">
+          <h3 align="center">Es teler
+        </div>
+    </div>
+
+    </div>
+  </body>
+</html>
